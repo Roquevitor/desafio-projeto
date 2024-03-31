@@ -1,36 +1,42 @@
 //criar uma variavel para armazenar o nome e  quantidade de experiência (XP) de um herói, depois ultilizar uma estrutura de decisão para apresentar.
 
-let heroiFelipaoXp = 9.500;
+let heroiFelipaoXp = 8.500;
+let resultado = ""
 
-switch (true) {
+switch  (true) { 
+
     case heroiFelipaoXp <= 1.000:
-        console.log("Ferro");
+         resultado = "Ferro"
         break;
     case heroiFelipaoXp  <= 2.000:
-        console.log("Bronze");
+        resultado = "Bronze";
         break;
         case heroiFelipaoXp  <= 5.000:
-        console.log("Prata");
+        resultado ="Prata";
         break;
         case heroiFelipaoXp  <= 7.000:
-        console.log("Ouro");
+        resultado ="Ouro";
         break;
         case heroiFelipaoXp  <= 8.000:
-        console.log("Platina");
+        resultado ="Platina";
         break;
         case heroiFelipaoXp  <= 9.000:
-        console.log("Diamante");
+        resultado= "Diamante";
         break;
         case heroiFelipaoXp  <= 10.500:
-        console.log("Acendente");
+        resultado ="Acendente";
         break;
         case heroiFelipaoXp  <= 11.500:
-        console.log("imortal");
+        resultado ="imortal";
         break;
         case heroiFelipaoXp  >= 11.501:
-        console.log("Radiante");
+        resultado ="Radiante";
         break;
-}
+    }
+    console.log("O heroi esta no nivel " + resultado)
+
+
+
 
 //explicando o código
 
