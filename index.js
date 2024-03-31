@@ -1,7 +1,4 @@
-//criar uma variavel para armazenar o nome e -
-// quantidade de experiência (XP) de um herói - 
-// depois ultilizar uma estrutura de decisão para -
-// apresentar.
+//criar uma variavel para armazenar o nome e  quantidade de experiência (XP) de um herói, depois ultilizar uma estrutura de decisão para apresentar.
 
 let heroiFelipaoXp = 9.500;
 
@@ -37,17 +34,12 @@ switch (true) {
 
 //explicando o código
 
-// 1º) - A variavel "heroiFelipãoXp" atribuo a ela o valor de 9.500, 
-// - esse valor representa a experiência do herói chamado "felipão".
-//____________________________________________________________________
+// 1º) - A variavel "heroiFelipãoXp" atribuo a ela o valor de 9.500, esse valor representa a experiência do herói chamado "felipão".
 
 // 2°) - O 'Switch' avalia a espressão 'true' e executa o bloco de código
  
-// 3°) - Na maioria dos 'case' ele verifica se o 'heroiFelipaoXp' --
-// - é menor ou igual o valor declarado na 'case'. porem na --
-// - penultima 'case', ele varifica se o valor é maior ou igual o --
-// - valor declarado da 'case'. Se uma das case for verdadeiro --
-// - ele executa 'console.log()' e o 'breack' para sair da 'swiitch'.
-//_____________________________________________________________________________
+// 3°) - Na maioria dos 'case' ele verifica se o 'heroiFelipaoXp' é menor ou igual o valor declarado na 'case'. porem na penultima 'case', ele varifica se o valor é maior ou igual o --
+// - valor declarado da 'case'. Por fim, se uma das case for verdadeiro ele executa 'console.log()' e o 'breack' para sair da 'swiitch'.
+
  
 
